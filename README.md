@@ -1,6 +1,7 @@
-# GitOps Hello World v2
+# GitOps Hello World Brigade
 
-Second iteration of the Hello world REST API used to demonstrate a more decoupled GitOps workflow.
+Second iteration of the Hello world REST API used to demonstrate a more decoupled GitOps workflow
+using [Brigade](https://brigade.sh/) as the CD system.
 
 This workflow uses [Google Container Builder](https://cloud.google.com/container-builder/) as the
 CI system to build Docker images and push them to [Google Container Registry](https://cloud.google.com/container-registry/).
@@ -22,7 +23,9 @@ The following env vars can be set:
 | `API_HOST` | no       | `0.0.0.0` set in `./src/app.js` |
 | `API_PORT` | no       | `8888` set in `./src/app.js`    |
 
-## Google Identity & Access Management Roles
+## Caveats
+
+### Google Identity & Access Management Roles
 
 GCP IAM requires `[PROJECT_ID]@cloudbuild.gserviceaccount.com` to have the following roles:
 
