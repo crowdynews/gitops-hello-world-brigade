@@ -1,0 +1,10 @@
+steps:
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      - 'build'
+      - '-t'
+      - 'gcr.io/${PROJECT_ID}/crowdynews/hello-world-v2:${SHORT_SHA}'
+      - '.'
+
+images:
+  - 'gcr.io/${PROJECT_ID}/crowdynews/hello-world-v2:${SHORT_SHA}'
