@@ -1,5 +1,5 @@
 {
-  "name": "gitops-hello-world-v2",
+  "name": "gitops-hello-world-brigade",
   "version": "1.0.0",
   "description": "Second iteration of the Hello world REST API used to demonstrate a more decoupled GitOps workflow.",
   "main": "index.js",
@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/crowdynews/gitops-hello-world-v2.git"
+    "url": "git+https://github.com/crowdynews/gitops-hello-world-brigade.git"
   },
   "keywords": [],
   "author": "Daniël Illouz <daniel.illouz@me.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/crowdynews/gitops-hello-world-v2/issues"
+    "url": "https://github.com/crowdynews/gitops-hello-world-brigade/issues"
   },
-  "homepage": "https://github.com/crowdynews/gitops-hello-world-v2#readme",
+  "homepage": "https://github.com/crowdynews/gitops-hello-world-brigade#readme",
   "engines": {
     "node": ">=9.7"
   },
